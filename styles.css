@@ -1,0 +1,38 @@
+.top-menu {
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 4px 5px -2px gray;
+  background: #F7F7F7;
+}
+
+body, svg {
+  background: #F7F7F7;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+visibility: hidden;
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+border-radius: 6px;
+
+width: 500px;
+top: 100%;
+left: 50%;
+margin-left: -250px;
+
+position: absolute;
+z-index: 1;
+
+}
+
+.tooltip:hover .tooltip-text {
+visibility: visible;
+}
+
